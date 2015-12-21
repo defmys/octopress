@@ -8,13 +8,18 @@
         // Blog页面标题字体大小
         font-size: 2.0em;
     }
+    article p
+    {
+        // article 页面内容字体
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 992px)
 {
     h1 
     { 
-        // post页面标题字体大小
+        // article页面标题字体大小
         font-size: 2.2em;
     }
 }
