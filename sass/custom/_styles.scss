@@ -1,2 +1,21 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+#content .blog-index
+{
+    article h1
+    {
+        // Blog页面标题字体大小
+        font-size: 2.0em;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    h1 
+    { 
+        // post页面标题字体大小
+        font-size: 2.2em;
+    }
+}
+
