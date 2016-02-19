@@ -14,6 +14,14 @@
         font-size: 16px;
         text-indent: 2em;
     }
+    article blockquote
+    {
+        font-size: 16px;
+    }
+    article blockquote p
+    {
+        text-indent: 0em;
+    }
 }
 
 @media only screen and (min-width: 992px)
@@ -36,8 +44,3 @@
     background: #0181eb;
 }
 
-article blockquote
-{
-    // article页面中blockquote字体大小
-    font-size: 16px;
-}
